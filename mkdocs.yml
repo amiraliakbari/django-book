@@ -1,0 +1,24 @@
+site_name: 'راهنمای عملیاتی جنگو'
+site_description: 'چگونه با استفاده از جنگو به سرعت یک نمونه اولیه کاربردی و قابل توسعه برای شروع استارت‌آپ خود بسازیم'
+site_author: 'امیرعلی اکبری'
+docs_dir: 'src'
+site_dir: 'build/html'
+extra_css:
+  - assets/fastyle.css
+theme:
+  name: 'material'
+  font: false
+  language: 'fa'
+  direction: 'rtl'
+  logo:
+    icon: 'smartphone'
+  feature:
+    tabs: true
+nav:
+  - آشنایی:
+    - درباره راهنما: 'index.md'
+  - تجربه:
+    - نقش تجربه در کیفیت: best-practice/index.md
+  - سایر منابع:
+    - معرفی منابع: 'references/index.md'
+    - کتاب‌ها: 'references/books.md'
